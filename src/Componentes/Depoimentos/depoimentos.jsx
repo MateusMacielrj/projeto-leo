@@ -17,7 +17,7 @@ function Depoimentos() {
       <h3>Depoimentos</h3>
 
       <div className="alunos">
-        {[1, 2, 3].map((_, i) => (
+        {[1, 2, 3 , 4 ].map((_, i) => (
           <div className="depoimento" key={i}>
             <img
               src={ImagemAntesDepois}
