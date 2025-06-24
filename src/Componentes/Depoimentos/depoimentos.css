@@ -1,0 +1,93 @@
+.depoimentos {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.alunos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  margin-top: 2rem;
+}
+
+.depoimento {
+  width: 25rem;
+  background-color: rgba(43, 43, 43, 0.7); /* cor com transparência */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  border-radius: 1rem; /* borda arredondada */
+  padding: 1rem; /* opcional, para dar espaço interno */
+}
+
+
+.depoimentos h3 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 3rem;
+}
+
+.depoimentos p {
+    margin-bottom: 1rem;
+}
+
+.depoimento img {
+  width: 16rem;
+  height: 18rem;
+  margin-top: 2rem;
+  border-radius: 1rem;
+}
+
+blockquote {
+  font-weight: 200;
+  font-size: 1rem;
+
+  text-align: center;
+}
+
+
+@media (max-width: 600px) {
+  .depoimentos {
+    padding: 0 1rem;
+    margin-top: 3rem;
+  }
+
+  .depoimentos h3 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .alunos {
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 1.5rem;
+  }
+
+  .depoimento {
+    width: 100%;
+    padding: 1rem;
+    gap: 1.5rem;
+  }
+
+  .depoimento img {
+    width: 12rem;
+    height: 14rem;
+    margin-top: 1rem;
+  }
+
+  blockquote {
+    font-size: 0.9rem;
+    padding: 0 1rem;
+  }
+
+  .depoimentos p {
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 0 1rem;
+  }
+}

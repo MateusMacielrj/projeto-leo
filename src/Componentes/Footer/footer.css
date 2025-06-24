@@ -1,0 +1,54 @@
+footer {
+    display: flex;
+    align-items: center;       
+    justify-content: center;   
+    gap: 2rem;                 
+    margin-top: 5rem;          
+    padding: 2rem;  
+   
+}
+
+
+.msg-logo{
+ 
+   width: 50%;
+}
+
+.img-rodape{
+     width: 10rem;
+    
+}
+
+.msg-logo p {
+  margin-top: 1.5rem;
+  font-weight: 400;
+  font-size: 1.2rem;
+  font-family: "Bebas Neue", sans-serif;
+ 
+}
+
+
+
+.contatos{
+    
+}
+
+.redes-sociais{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+
+.redes-sociais img {
+    width: 2.5rem;
+}
+
+
+@media (max-width: 600px) {
+    footer {
+   flex-direction: column;
+   
+}
+}
