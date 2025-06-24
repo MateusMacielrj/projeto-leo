@@ -20,7 +20,7 @@ function Footer() {
         </p>
       </div>
 
-      <div className="contatos">
+      <div id="contato" className="contatos">
         
        
         
