@@ -95,3 +95,44 @@
     margin-bottom: 0.5rem;
   }
 }
+
+@media (max-width: 1024px) {
+  .valores {
+    margin-top: 3rem;
+    padding: 0 1rem;
+  }
+
+  .valores h3 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .planos {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+
+  .plano-1,
+  .plano-2,
+  .plano-3 {
+    width: 100%;
+    max-width: 20rem;
+    height: auto;
+    padding: 1.5rem;
+    border-radius: 1rem;
+  }
+
+  .plano-1 ul,
+  .plano-2 ul,
+  .plano-3 ul {
+    gap: 0.8rem;
+  }
+
+  .valores h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+}
+

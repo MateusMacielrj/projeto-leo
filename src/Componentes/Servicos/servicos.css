@@ -58,7 +58,7 @@
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 1024px) {
   .servicos {
     padding: 0 1rem;
     margin-top: 3rem;
@@ -80,7 +80,7 @@
   }
 
   .servicos li {
-    width: 90%;
+    width: 100%;
     height: auto;
     padding: 1rem;
     border-radius: 1rem;
@@ -94,3 +94,5 @@
     font-size: 0.9rem;
   }
 }
+
+
