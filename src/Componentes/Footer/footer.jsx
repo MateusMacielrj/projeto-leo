@@ -28,7 +28,7 @@ function Footer() {
 
       <div className="redes-sociais">
         <a
-          href="https://www.instagram.com/leo.personal"
+          href="https://www.instagram.com/leomacosta/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -36,7 +36,7 @@ function Footer() {
         </a>
 
         <a
-          href="https://wa.me/5511912345678"
+          href="https://www.facebook.com/share/16RFhwNtYe/?mibextid=wwXIfr"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -44,7 +44,7 @@ function Footer() {
         </a>
 
         <a
-          href="https://wa.me/5511912345678"
+          href="https://wa.me/5521969608890"
           target="_blank"
           rel="noopener noreferrer"
         >
