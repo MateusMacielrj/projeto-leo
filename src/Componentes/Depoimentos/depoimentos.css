@@ -4,6 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
 }
 
 .alunos {
@@ -12,19 +13,24 @@
   align-items: center;
   gap: 5rem;
   margin-top: 2rem;
+  
 }
 
 .depoimento {
-  width: 25rem;
-  background-color: rgba(43, 43, 43, 0.7); /* cor com transparência */
+  width: 15rem;
+  max-width: 25rem; /* continua respeitando esse limite em telas grandes */
+  background-color: rgba(43, 43, 43, 0.7);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   gap: 2rem;
-  border-radius: 1rem; /* borda arredondada */
-  padding: 1rem; /* opcional, para dar espaço interno */
+  border-radius: 1rem;
+  padding: 1rem;
+  box-sizing: border-box; /* garante que padding não ultrapasse o tamanho */
+  border: solid;
 }
+
 
 
 .depoimentos h3 {
@@ -37,8 +43,8 @@
 }
 
 .depoimento img {
-  width: 16rem;
-  height: 18rem;
+  width: 13rem;
+  height: 15rem;
   margin-top: 2rem;
   border-radius: 1rem;
 }
