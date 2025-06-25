@@ -11,20 +11,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 5rem;
+  gap: 2rem;
   margin-top: 2rem;
   
 }
 
 .depoimento {
-  width: 15rem;
+  width: 19rem;
   max-width: 25rem; /* continua respeitando esse limite em telas grandes */
   background-color: rgba(43, 43, 43, 0.7);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
   border-radius: 1rem;
   padding: 1rem;
   box-sizing: border-box; /* garante que padding não ultrapasse o tamanho */
