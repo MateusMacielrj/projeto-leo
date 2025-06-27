@@ -46,6 +46,12 @@
     padding: 1rem;
     text-align: center;
     gap: 2rem;
+     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+                    url(../imagems/fundo3-750x1334.png);
+  background-size: cover;        /* Faz a imagem cobrir toda a tela */
+  background-position: center;   /* Centraliza a imagem */
+  background-repeat: no-repeat;  /* Impede que ela se repita */
+  background-attachment: fixed;  /* (opcional) Faz a imagem ficar fixa ao rolar */
   
   }
 

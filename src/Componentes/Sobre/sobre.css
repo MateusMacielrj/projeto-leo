@@ -39,6 +39,8 @@
 
 @media (max-width: 600px) {
 .sobre {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+                    url(../imagems/fundo1.jpg);
   flex-direction: column;
   padding: 1rem;
   gap: 2rem;

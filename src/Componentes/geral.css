@@ -33,21 +33,14 @@ html {
   body,
   html {
     background-color: black;
-    background-image: url('../Componentes/imagems/fundo2.png'); 
+    background-image: none; 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed; 
   }
 
- .info {
-   background-image: 
-                    url(../Componentes/imagems/fundo2.png);
-  background-size: cover;        /* Faz a imagem cobrir toda a tela */
-  background-position: center;   /* Centraliza a imagem */
-  background-repeat: no-repeat;  /* Impede que ela se repita */
-  background-attachment: fixed;  /* (opcional) Faz a imagem ficar fixa ao rolar */
- }
+
 }
 
 
