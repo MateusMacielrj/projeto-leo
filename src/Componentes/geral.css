@@ -30,14 +30,15 @@ html {
 
 
 @media (max-width: 600px) {
-  body,
-  html {
+
+
+  .App{
     background-color: black;
     background-image: url('../Componentes/imagems/fundo2.png'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed; /* isso mantém a imagem parada */
+    background-attachment: fixed; 
   }
 }
 
