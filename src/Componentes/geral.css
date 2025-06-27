@@ -33,20 +33,11 @@ html {
   body,
   html {
     background-color: black;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../Componentes/imagems/fundo3-750x1334.png'); 
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
   }
-
- .info {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-                    url("../Componentes/imagems/fundo_750x1334.jpg");
-  background-size: cover;          /* cobre todo o container */
-  background-position: center;     /* centraliza a imagem */
-  background-repeat: no-repeat;    /* não repete a imagem */
-}
-
-
-
 }
 
 
