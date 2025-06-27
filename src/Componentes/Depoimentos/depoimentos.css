@@ -142,6 +142,12 @@ blockquote {
   .depoimentos {
     padding: 0 1rem;
     margin-top: 3rem;
+    background-image: 
+                    url(../imagems/fundo2.jpg);
+  background-size: cover;        /* Faz a imagem cobrir toda a tela */
+  background-position: center;   /* Centraliza a imagem */
+  background-repeat: no-repeat;  /* Impede que ela se repita */
+  background-attachment: fixed;  /* (opcional) Faz a imagem ficar fixa ao rolar */
   }
 
   .depoimentos h3 {
