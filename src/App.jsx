@@ -8,8 +8,7 @@ import Contato from "./Componentes/Contatos/contato"
 import Footer from "./Componentes/Footer/footer"
 import Direitos from "./Componentes/Direitos/direitos"
 
-
-import  "./Componentes/geral.css"
+import "./Componentes/geral.css"
 import "./Componentes/Header/header.css"
 import "./Componentes/Hero/hero.css"
 import "./Componentes/Sobre/sobre.css"
@@ -19,24 +18,27 @@ import "./Componentes/Planos/planos.css"
 import "./Componentes/Footer/footer.css"
 import "./Componentes/Direitos/direitos.css"
 
-
 function App() {
- 
-
   return (
-    <div className='App'>
-     <Header/>
-     <div className="info">
-       <Hero/>
-       <Sobre/>
-     </div>
-     <Servicos/>
-     <Depoimentos/>
-     <Planos/>
-     <Contato/>
-     <Footer/>
-     <Direitos/>
-    </div>
+    <>
+      {/* Fundo fixo */}
+      <div className="background-fixed" />
+
+      {/* Conteúdo acima do fundo */}
+      <div className="App">
+        <Header />
+        <div className="info">
+          <Hero />
+          <Sobre />
+        </div>
+        <Servicos />
+        <Depoimentos />
+        <Planos />
+        <Contato />
+        <Footer />
+        <Direitos />
+      </div>
+    </>
   )
 }
 
