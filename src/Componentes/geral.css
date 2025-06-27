@@ -14,58 +14,34 @@ html {
   height: 100%;
   margin: 0;
   padding: 0;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-                    url(../Componentes/imagems/fundo-academia.jpg);
-  background-size: cover;        /* Faz a imagem cobrir toda a tela */
-  background-position: center;   /* Centraliza a imagem */
-  background-repeat: no-repeat;  /* Impede que ela se repita */
-  background-attachment: fixed;  /* (opcional) Faz a imagem ficar fixa ao rolar */
-   margin: 0;
-  padding: 0;
+  background: none; /* Remove o background padrão, pois usaremos a div fixa */
   display: flex;
   flex-direction: column;
   align-items: center;
   color: white;
 }
 
+.background-fixo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('../Componentes/imagems/fundo-metalico-750x1334.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
 
-@media (max-width: 600px) {
-  body,
-  html {
+.info {
+  margin-top: 3rem;
+}
+
+@media (min-width: 601px) {
+  .background-fixo {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-                    url(../Componentes/imagems/fundo-metalico-750x1334.jpg);
-    
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    
+      url('../Componentes/imagems/fundo-academia.jpg');
   }
-
-  .info{
-    margin-top: 3rem;
-   
-  }
-.App {
- 
-     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-                    url(../Componentes/imagems/fundo-metalico-750x1334.jpg);
-    background-image: none; 
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
