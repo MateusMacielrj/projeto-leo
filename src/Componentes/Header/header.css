@@ -41,12 +41,7 @@ header {
   display: flex; /* garante o uso de flex-direction */
   flex-direction: column;
   padding: 1rem 0;
-  background-image: 
-    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
-    url('../imagems/fundo-academia.jpg');
-  background-size: cover;        /* cobre todo o header */
-  background-position: center;   /* centraliza a imagem */
-  background-repeat: no-repeat;  /* evita repetição da imagem */
+  
   color: white;                  /* deixa o texto visível se fundo for escuro */
 }
 
