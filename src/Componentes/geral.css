@@ -29,6 +29,19 @@ html {
 }
 
 
+@media (max-width: 600px) {
+  body,
+  html {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+                      url("../Componentes/imagems/fundo.jpg");
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+
+
 
 
 

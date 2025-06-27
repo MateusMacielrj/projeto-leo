@@ -18,7 +18,7 @@
 
 .depoimento {
   width: 19rem;
-  max-width: 25rem; /* continua respeitando esse limite em telas grandes */
+  max-width: 25rem; 
   background-color: rgba(43, 43, 43, 0.7);
   display: flex;
   align-items: center;
@@ -27,7 +27,7 @@
   gap: 1rem;
   border-radius: 1rem;
   padding: 1rem;
-  box-sizing: border-box; /* garante que padding não ultrapasse o tamanho */
+  box-sizing: border-box; 
   border: solid;
 }
 
