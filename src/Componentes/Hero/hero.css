@@ -55,8 +55,9 @@
   }
 
   .hero img {
-    width: 10rem; /* reduz o tamanho da imagem no mobile */
+    width: 10rem; 
     margin-top: 1.5rem;
+   margin-right: 2rem;
   }
 
   .texto {
