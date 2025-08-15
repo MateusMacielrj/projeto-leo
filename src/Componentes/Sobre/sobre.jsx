@@ -1,9 +1,9 @@
-import imagemLeo2 from "../imagems/leo2.jpg";
+
 
 function Sobre() {
   return (
     <section id="sobre" className="sobre">
-      <img src={imagemLeo2} alt="" />
+     
 
       <div className="sobre-leo">
         <h3>

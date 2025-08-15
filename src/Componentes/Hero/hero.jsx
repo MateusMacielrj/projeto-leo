@@ -1,4 +1,4 @@
-import imagemLeo from "../imagems/leo.jpg";
+import imagemLeo from "../imagems/leo 1.jpg";
 
 
 

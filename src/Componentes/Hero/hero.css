@@ -35,6 +35,8 @@
 
 .hero img {
   width: 15rem;
+  border-radius: 2rem;
+  margin-left: 2rem;
 }
 
 
